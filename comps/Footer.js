@@ -1,9 +1,5 @@
 const Footer = () => {
-  return (
-    <footer>
-      Copyright 2021 Ninja List
-    </footer>
-  );
-}
- 
+  return <footer>QueenB AppsFlyer Safe Web Hackathon</footer>;
+};
+
 export default Footer;
