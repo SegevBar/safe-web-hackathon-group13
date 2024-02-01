@@ -1,25 +1,44 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-import ContentCard from '../comps/ContentCard';
-import ContentGrid from '../comps/ContentGrid';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import ContentCard from "../comps/ContentCard";
+import ContentGrid from "../comps/ContentGrid";
+
+const data = [
+  {
+    url: "https://www.youtube.com/watch?v=5Zjplzo5YZg",
+    title: "Commercial Criticism",
+    thumbnail: "https://i.ytimg.com/vi/5Zjplzo5YZg/maxresdefault.jpg",
+    views: "1.8M",
+    id: 1,
+  },
+  {
+    url: "https://www.youtube.com/watch?v=DBJVj2DLuLA",
+    title: "The 7 Habits of Highly Effective People",
+    thumbnail: "https://i.ytimg.com/vi/DBJVj2DLuLA/maxresdefault.jpg",
+    views: "1.8M",
+    id: 2,
+  },
+  {
+    url: "https://www.youtube.com/watch?v=TwWZSW2GkXY",
+    title: "Kupa Rashit",
+    thumbnail: "https://i.ytimg.com/vi/TwWZSW2GkXY/maxresdefault.jpg",
+    views: "1.8M",
+    id: 3,
+  },
+];
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
-        <meta name="keywords" content="ninjas"/>
+        <title>Feel Good | Home</title>
+        <meta name="keywords" content="ninjas" />
       </Head>
       <div>
-        <h1 className={styles.title}>Homepage</h1>
-        <ContentGrid />
-        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
-        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
-        <Link href="/ninjas/" className={styles.btn}>
-          See Ninja Listing
-        </Link>
+        <h1 className={styles.title}>Feel Good</h1>
+        <p className={styles.text}>Do what makes you feel good</p>
+        <ContentGrid data={data} />
       </div>
     </>
-  )
+  );
 }

@@ -1,40 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import ContentCard from './ContentCard';
+import React from "react";
+import ContentCard from "./ContentCard";
+import ContentGridContainer from "./ContentGridContainer";
 
-function ContentGrid() {
+import styles from "../styles/ContentGrid.module.css";
 
-const videos = [
-    {
-    url: 'https://www.youtube.com/watch?v=5Zjplzo5YZg',
-    title: 'The 7 Habits of Highly Effective People',
-    thumbnail: 'https://i.ytimg.com/vi/5Zjplzo5YZg/maxresdefault.jpg',
-    views: '1.8M',
-    id: 1,
-  }, 
-  {
-    url: 'https://www.youtube.com/watch?v=DBJVj2DLuLA',
-    title: 'The 7 Habits of Highly Effective People',
-    thumbnail: 'https://i.ytimg.com/vi/5Zjplzo5YZg/maxresdefault.jpg',
-    views: '1.8M',
-    id: 2,
-  },
-  {
-    url: 'https://www.youtube.com/watch?v=5Zjplzo5YZg',
-    title: 'The 7 Habits of Highly Effective People',
-    thumbnail: 'https://i.ytimg.com/vi/5Zjplzo5YZg/maxresdefault.jpg',
-    views: '1.8M',
-    id: 3,
-  }];
-
+function ContentGrid({ data }) {
   return (
-    <div className="home-page">
-      <h1>Featured Videos</h1>
-      <div className="video-grid">
-        {videos.map((video) => (
-          <ContentCard key={video.id} video={video} />
-        ))}
-      </div>
-    </div>
+    <ContentGridContainer>
+      {data.map((item) => (
+        <ContentCard key={item.id} data={item} />
+      ))}
+    </ContentGridContainer>
   );
 }
 

@@ -134,3 +134,5 @@ dist
 tsconfig.json
 next.config.js
 next-env.d.ts
+
+.vscode
