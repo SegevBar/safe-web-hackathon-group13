@@ -1,0 +1,55 @@
+/* SuggestionForm.css */
+
+/* Container styles */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Form styles */
+.suggestionform {
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group styles */
+.formgroup {
+  margin-bottom: 25px;
+}
+
+/* Label styles */
+.label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Input field styles */
+.inputfield {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Submit button styles */
+.submitbutton {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+.submitbutton:hover {
+  background-color: #45a049;
+}
