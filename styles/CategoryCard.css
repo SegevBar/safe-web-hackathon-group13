@@ -1,0 +1,7 @@
+.CategoryCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fce4ec; /* Light pink background color */
+    padding: 20px;
+  }

@@ -22,7 +22,11 @@ import styles from '../styles/Home.module.css'
 // });
 
 export default function Home() {
-  const categories = [{id:1, catergoryName: "Yoga", path: "/about", image:"/yogaCategory.jpeg" }];
+  const categories = [{id:1, categoryName: "Yoga", path: "/about", image:"/yogaCategory.jpeg" },
+  {id:2, categoryName: "Noa", path: "/about", image:"/yogaCategory.jpeg" },
+  {id:3, categoryName: "Dana", path: "/about", image:"/yogaCategory.jpeg" },
+  {id:4, categoryName: "Tom", path: "/about", image:"/yogaCategory.jpeg" },
+  {id:5, categoryName: "Nacho", path: "/about", image:"/yogaCategory.jpeg" }];
 
   return (
     <>

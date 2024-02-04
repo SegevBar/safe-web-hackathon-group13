@@ -42,3 +42,22 @@ footer {
   color: #4979ff;
   text-decoration: underline;
 }
+
+.CategoryCard{
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fce4ec; /* Light pink background color */
+  margin: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.CategoryButton {
+  border: none;
+} 
+
+.CategoryCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
