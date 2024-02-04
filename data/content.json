@@ -6,7 +6,7 @@
       "category": "yoga",
       "description": "20-Minute Yoga For Beginners | Start Yoga Here...",
       "duration": "20 minutes",
-      "imageUrl": "path/to/yoga-image.jpg",
+      "imageUrl": "https://i.ytimg.com/vi/vNyJuQuuMC8/maxresdefault.jpg",
       "contentUrl": "https://www.youtube.com/watch?v=vNyJuQuuMC8"
     },
     {
@@ -16,6 +16,72 @@
       "duration": "45 minutes",
       "imageUrl": "path/to/music-image.jpg",
       "contentUrl": "https://www.example.com/relaxing-music"
+    },
+    {
+      "id": 3,
+      "category": "music",
+      "description": "100 Uplifting Songs",
+      "duration": "6 hours",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1b8e3e06a1469f0e47c384a",
+      "contentUrl": "https://open.spotify.com/album/1V3SPr45Sj8uRuAup6Dd2l" 
+    },
+    {
+      "id": 4,
+      "category": "read",
+      "description": "The Art of The Good Life",
+      "duration": "4 hours, 38 minutes",
+      "imageUrl": "https://images-evrit.yit.co.il/Images/Products/NewBO/Products/30930/omanot_hahaim_hatovim_Master.jpg",
+      "contentUrl": "https://www.e-vrit.co.il/Product/30930/%D7%90%D7%9E%D7%A0%D7%95%D7%AA_%D7%94%D7%97%D7%99%D7%99%D7%9D_%D7%94%D7%98%D7%95%D7%91%D7%99%D7%9D" 
+    },
+    {
+      "id": 5,
+      "category": "read",
+      "description": "חושבים טוב",
+      "duration": "4 hours, 38 minutes",
+      "imageUrl": "https://images-evrit.yit.co.il/Images/Products/covers_2020/thinkingwell_master.jpg",
+      "contentUrl": "https://www.e-vrit.co.il/Product/18718/%D7%97%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%98%D7%95%D7%91" 
+    },
+    
+    {
+      "id": 6,
+      "category": "read",
+      "description": "RAN WITH ME",
+      "duration": "2 hours, 20 minutes",
+      "imageUrl": "https://images-evrit.yit.co.il/Images/Products/NewBO/Products/29922/RAN_WITH_ME_Master.jpg",
+      "contentUrl": "https://www.e-vrit.co.il/Product/29922/RAN_WITH_ME" 
+    },
+    {
+      "id": 7,
+      "category": "meditation",
+      "description": "How To Meditate",
+      "duration": "10 minutes",
+      "imageUrl": "/how-to-meditate.jpg",
+      "contentUrl": "https://www.mindful.org/how-to-meditate/" 
+    },
+    {
+      "id": 8,
+      "category": "cook",
+      "description": "The Ultimate Healthy Soft & Chewy Oatmeal Raisin Cookies",
+      "duration": "1 hour, 21 minutes",
+      "imageUrl": "https://amyshealthybaking.com/wp-content/uploads/2014/11/ultimate-healthy-oatmeal-raisin-cookies_8511-labeled.jpg",
+      "contentUrl": "https://amyshealthybaking.com/blog/2014/11/30/the-ultimate-healthy-soft-chewy-oatmeal-raisin-cookies/" 
+    },
+    {
+      "id": 9,
+      "category": "cook",
+      "description": "Keto Cereal",
+      "duration": "35 minutes",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/delish-keto-cereal-vertical-1543273036.png?crop=1.00xw:0.667xh;0,0.188xh&resize=980:*",
+      "contentUrl": "    https://www.delish.com/cooking/recipe-ideas/a25238263/keto-cereal-recipe/" 
+    },
+    
+    {
+      "id": 10,
+      "category": "yoga",
+      "description": "Full Body Stretch | Gentle Routine for Flexibility, Relaxation & Stress Relief | 30Min.Yoga inspired",
+      "duration": "30 minutes",
+      "imageUrl": "https://i.ytimg.com/vi/CY6QP4ofwx4/maxresdefault.jpg",
+      "contentUrl":"https://www.youtube.com/watch?v=CY6QP4ofwx4" 
     }
   ]
 }
