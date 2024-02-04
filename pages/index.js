@@ -23,10 +23,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const categories = [{id:1, categoryName: "Yoga", path: "/about", image:"/yogaCategory.jpeg" },
-  {id:2, categoryName: "Noa", path: "/about", image:"/cook.png" },
-  {id:3, categoryName: "Dana", path: "/about", image:"/yogaCategory.jpeg" },
-  {id:4, categoryName: "Tom", path: "/about", image:"/yogaCategory.jpeg" },
-  {id:5, categoryName: "Nacho", path: "/about", image:"/yogaCategory.jpeg" }];
+  {id:2, categoryName: "Cook", path: "/about", image:"/cook.png" },
+  {id:3, categoryName: "Music", path: "/about", image:"/music.png" },
+  {id:4, categoryName: "Meditation", path: "/about", image:"/meditationLogo.png" },
+  {id:5, categoryName: "Read", path: "/about", image:"/book.png" }];
 
   return (
     <>
