@@ -44,6 +44,7 @@ footer {
 }
 
 .CategoryCard{
+  margin-bottom: 20px;
   display: inline-block;
   flex-wrap: wrap;
   justify-content: space-around;
