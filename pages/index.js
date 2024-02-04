@@ -2,8 +2,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import ContentCard from "../comps/ContentCard";
 import ContentGrid from "../comps/ContentGrid";
+import useFetchContent from "../hooks/useFetchContent";
 
-const data = [
+/* const data = [
   {
     url: "https://www.youtube.com/watch?v=5Zjplzo5YZg",
     title: "Commercial Criticism",
@@ -26,8 +27,11 @@ const data = [
     id: 3,
   },
 ];
+*/
+// Ensure that 'data' is received as a prop here
 
-export default function Home() {
+export default function Home({ data }) {
+
   return (
     <>
       <Head>
@@ -37,8 +41,20 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>Feel Good</h1>
         <p className={styles.text}>Do what makes you feel good</p>
-        <ContentGrid data={data} />
+        {/* Render your ContentGrid component with fetched data */}
+        {<ContentGrid data={data} />}
       </div>
     </>
   );
 }
+
+// This function gets called at build time on server-side.
+
+export async function getStaticProps(){
+
+  const res = await fetch("http://localhost:5000/data");
+  const data = await res.json();
+
+   // Pass data to the page via props
+   return { props: { data  } };
+  }
