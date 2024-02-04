@@ -1,0 +1,23 @@
+{
+    "content":
+    [ 
+      {
+        "id": 1,
+        "type": "Yoga",
+        "description": "20-Minute Yoga For Beginners | Start Yoga Here...",
+        "duration": "20 minutes",
+        "imageUrl": "path/to/yoga-image.jpg",
+        "contentUrl": "https://www.youtube.com/watch?v=vNyJuQuuMC8"
+      },
+      {
+        "id": 2,
+        "type": "Podcast",
+        "description": "Relaxing Music Playlist",
+        "duration": "45 minutes",
+        "imageUrl": "path/to/music-image.jpg",
+        "contentUrl": "https://www.example.com/relaxing-music"
+      }
+    ]
+  }
+    
+  
