@@ -6,7 +6,7 @@ body {
   font-family: "Nunito";
 }
 a {
-  color: #333;
+  color: 	#d41442;
   text-decoration: none;
 }
 .content {
@@ -44,7 +44,6 @@ footer {
 }
 
 .CategoryCard{
-  margin-bottom: 20px;
   display: inline-block;
   flex-wrap: wrap;
   justify-content: space-around;

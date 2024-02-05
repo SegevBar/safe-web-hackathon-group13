@@ -1,10 +1,10 @@
 .title {
-  color: #333;
+  color: #d41442;
   padding-bottom: 20px;
   text-align: center;
 }
 .text {
-  color: #777;
+  color: rgb(243, 243, 243);
 }
 .btn {
   display: block;
