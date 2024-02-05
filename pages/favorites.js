@@ -11,3 +11,5 @@ export default function favorites(){
         <h1>Your Favorites:</h1>
     )
 }
+
+console.log('orna')
