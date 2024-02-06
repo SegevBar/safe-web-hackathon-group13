@@ -10,7 +10,6 @@ const About = () => {
         <meta name="keywords" content="ninjas"/>
       </Head>
       <div>
-        <h1 className={styles.title}>About</h1>
         <h3 className={styles.text}>Scroll Wisely with 'Feel Good'</h3>
         <p className={styles.mantra}>Our mission is to assist those seeking positive change!</p>
         <p className={styles.sub}>Motivation</p>
@@ -48,7 +47,7 @@ const About = () => {
         Unlike conventional blocking features, it encourages users to shift to more fulfilling activities, addressing the common 
         tendency to ignore restrictions. Feel Good provides engaging alternatives, making the transition to a better activity more enticing.
         </p>
-        <h3 className={styles.text}>Scrol your way to a better life with 'Feel Good'!</h3>
+        <h3 className={styles.text}>Scroll your way to a better life with 'Feel Good'!</h3>
 
       </div>
     </>

@@ -17,7 +17,6 @@ export default function Home() {
         <title>Feel Good | Home</title>
       </Head>
       <div>
-        <h1 className={styles.title}>Welcome to 'Feel Good'</h1>
         <h3 className={styles.text}>Take control of your scrolling experience!</h3>
           <div className={styles.categories}>
             {categories.map((category)=>(<Category key={category.id} {...category}/>))}

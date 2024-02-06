@@ -43,11 +43,11 @@ const Image = styled('span')(({ theme }) => ({
   right: 0,
   top: 0,
   borderRadius: '50%',
-  bottom:'20px',
+  bottom:'0px',
   display: 'flex',
-  alignItems: 'center',
+  alignItems: 'down',
   justifyContent: 'center',
-  color: theme.palette.common.white,
+  color: "#e6949f",
 }));
 
 const ImageBackdrop = styled('span')(({ theme }) => ({
@@ -97,6 +97,8 @@ const Category =  ({id, categoryName, path, image}) =>{
                 position: 'relative',
                 p: 4,
                 pt: 2,
+                fontSize: 22,
+                fontWeight: 75,
                 pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
               }}
             >
