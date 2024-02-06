@@ -1,211 +1,4 @@
 {
-    "content":
-    [ 
-      {
-        "id": 1,
-        "category": "yoga",
-        "description": "20-Minute Yoga For Beginners | Start Yoga Here...",
-        "duration": "20 minutes",
-        "imageUrl": "https://i.ytimg.com/vi/vNyJuQuuMC8/maxresdefault.jpg",
-        "contentUrl": "https://www.youtube.com/watch?v=vNyJuQuuMC8",
-        "embed" :" https://www.youtube.com/embed/vNyJuQuuMC8?si=ksmBLsGerxwGeqTe",
-        "likes": 0
-      },
-      {
-        "id": 2,
-        "category": "podcast",
-        "description": "Relaxing Music Playlist",
-        "duration": "45 minutes",
-        "imageUrl": "path/to/music-image.jpg",
-        "contentUrl": "https://www.example.com/relaxing-music",
-        "embed": null,
-        "likes": 0
-      },
-      {
-        "id": 3,
-        "category": "music",
-        "description": "100 Uplifting Songs",
-        "duration": "6 hours",
-        "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1b8e3e06a1469f0e47c384a",
-        "contentUrl": "https://open.spotify.com/album/1V3SPr45Sj8uRuAup6Dd2l" ,
-        "embed" :null,
-        "likes": 0
-      },
-      {
-        "id": 4,
-        "category": "read",
-        "description": "The Art of The Good Life",
-        "duration": "4 hours, 38 minutes",
-        "imageUrl": "https://images-evrit.yit.co.il/Images/Products/NewBO/Products/30930/omanot_hahaim_hatovim_Master.jpg",
-        "contentUrl": "https://www.e-vrit.co.il/Product/30930/%D7%90%D7%9E%D7%A0%D7%95%D7%AA_%D7%94%D7%97%D7%99%D7%99%D7%9D_%D7%94%D7%98%D7%95%D7%91%D7%99%D7%9D",
-        "embed" : null,
-        "likes": 0
-      },
-      {
-        "id": 5,
-        "category": "read",
-        "description": "חושבים טוב",
-        "duration": "4 hours, 38 minutes",
-        "imageUrl": "https://images-evrit.yit.co.il/Images/Products/covers_2020/thinkingwell_master.jpg",
-        "contentUrl": "https://www.e-vrit.co.il/Product/18718/%D7%97%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%98%D7%95%D7%91" ,
-        "embed": null,
-        "likes": 0
-      },
-      
-      {
-        "id": 6,
-        "category": "read",
-        "description": "RAN WITH ME",
-        "duration": "2 hours, 20 minutes",
-        "imageUrl": "https://images-evrit.yit.co.il/Images/Products/NewBO/Products/29922/RAN_WITH_ME_Master.jpg",
-        "contentUrl": "https://www.e-vrit.co.il/Product/29922/RAN_WITH_ME" ,
-        "embed" : null,
-        "likes": 0
-      },
-      {
-        "id": 7,
-        "category": "meditation",
-        "description": "How To Meditate",
-        "duration": "10 minutes",
-        "imageUrl": "/how-to-meditate.jpg",
-        "contentUrl": "https://www.mindful.org/how-to-meditate/" ,
-        "embed": null,
-        "likes": 0
-      },
-      {
-        "id": 8,
-        "category": "cook",
-        "description": "The Ultimate Healthy Soft & Chewy Oatmeal Raisin Cookies",
-        "duration": "1 hour, 21 minutes",
-        "imageUrl": "https://amyshealthybaking.com/wp-content/uploads/2014/11/ultimate-healthy-oatmeal-raisin-cookies_8511-labeled.jpg",
-        "contentUrl": "https://amyshealthybaking.com/blog/2014/11/30/the-ultimate-healthy-soft-chewy-oatmeal-raisin-cookies/" ,
-        "embed" : null,
-        "likes": 0
-      },
-      {
-        "id": 9,
-        "category": "cook",
-        "description": "Keto Cereal",
-        "duration": "35 minutes",
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/delish-keto-cereal-vertical-1543273036.png?crop=1.00xw:0.667xh;0,0.188xh&resize=980:*",
-        "contentUrl": "    https://www.delish.com/cooking/recipe-ideas/a25238263/keto-cereal-recipe/" ,
-        "embed" :null,
-        "likes": 0
-      },
-      {
-        "id": 10,
-        "category": "yoga",
-        "description": "Full Body Stretch | Gentle Routine for Flexibility, Relaxation & Stress Relief | 30Min.Yoga inspired",
-        "duration": "30 minutes",
-        "imageUrl": "https://i.ytimg.com/vi/CY6QP4ofwx4/maxresdefault.jpg",
-        "contentUrl":"https://www.youtube.com/watch?v=CY6QP4ofwx4" ,
-        "embed" :"https://www.youtube.com/embed/CY6QP4ofwx4?si=v_DCdI6_D1WHcaoa",
-        "likes": 0
-      },
-      {
-        "id": 11,
-        "category": "yoga",
-        "description": "15 min Gentle Yoga for Flexibility & Stress Reduction",
-        "duration": "15 minutes",
-        "imageUrl": "https://i.ytimg.com/vi/EvMTrP8eRvM/maxresdefault.jpg",
-        "contentUrl":"https://www.youtube.com/watch?v=EvMTrP8eRvM" ,
-        "embed" :"https://www.youtube.com/embed/EvMTrP8eRvM?si=-I5ZcWuj_J2aGfdm",
-        "likes": 0
-      },
-      {
-        "id": 12,
-        "category": "cook",
-        "description": "Cooking Tips For Kitchen Beginners",
-        "duration": "8 minutes",
-        "imageUrl": "https://i.ytimg.com/vi/aopS3q6f1GY/maxresdefault.jpg",
-        "contentUrl":"https://www.youtube.com/watch?v=aopS3q6f1GY" ,
-        "embed" :"https://www.youtube.com/embed/aopS3q6f1GY?si=lglC8foS1RdnWTpu",
-        "likes": 0
-      },
-
-      {
-        "id": 13,
-        "category": "cook",
-        "description": "5 Gluten-Free Recipes",
-        "duration": "7 minutes",
-        "imageUrl": "https://i.ytimg.com/vi/h7RyzY9nhiY/maxresdefault.jpg",
-        "contentUrl":"https://www.youtube.com/watch?v=h7RyzY9nhiY" ,
-        "embed" :"https://www.youtube.com/embed/h7RyzY9nhiY?si=1T1bZMtRqJ0m3jll",
-        "likes": 0
-      },
-
-      {
-        "id": 14,
-        "category": "cook",
-        "description": "Homemade dessert",
-        "duration": "7 minutes",
-        "imageUrl": "https://i.ytimg.com/vi/dd2V1tsgdV/maxresdefault.jpg",
-        "contentUrl":"https://www.youtube.com/watch?v=dd2V1tsgdVc" ,
-        "embed" :"https://www.youtube.com/embed/dd2V1tsgdVc?si=iVtMNg4xsqsQ8dPE",
-        "likes": 0
-    },
-    {
-      "id": 15,
-      "category": "music",
-      "description": "Relaxation Music",
-      "duration": "2 hour",
-      "imageUrl": "https://i.ytimg.com/vi/IaQEmepUfwQ/maxresdefault.jpg",
-      "contentUrl":"https://www.youtube.com/watch?v=IaQEmepUfwQ" ,
-      "embed" :"https://www.youtube.com/embed/IaQEmepUfwQ?si=5qaRGwdgkONpzW68",
-      "likes": 0
-    },
-    {
-      "id": 16,
-      "category": "music",
-      "description": "Best songs that make you dance",
-      "duration": "1 hour",
-      "imageUrl": "https://i.ytimg.com/vi/Y1prccQWlxY/maxresdefault.jpg",
-      "contentUrl":"https://www.youtube.com/watch?v=Y1prccQWlxY" ,
-      "embed" :"https://www.youtube.com/embed/Y1prccQWlxY?si=2dz9RNr4MgIK5DSG",
-      "likes": 0
-    },
-    {
-      "id": 17,
-      "category": "music",
-      "description": "Cozy Coffeehouse ☕ - An Indie/Folk/Acoustic",
-      "duration": "1 hour",
-      "imageUrl": "https://i.ytimg.com/vi/L8hPtjGb3R0/maxresdefault.jpg",
-      "contentUrl":"https://www.youtube.com/watch?v=L8hPtjGb3R0" ,
-      "embed" :"https://www.youtube.com/embed/L8hPtjGb3R0?si=fFE6TNM6iX9GTqnz",
-      "likes": 0
-    },
-    {
-      "id": 18,
-      "category": "meditation",
-      "description": "Spiritual Healing Reducing Stress",
-      "duration": "5 minutes",
-      "imageUrl": "https://i.ytimg.com/vi/q4cvik3ye6LNIRFg/maxresdefault.jpg",
-      "contentUrl":"https://youtu.be/ldZkQJ-IXkM?si=q4cvik3ye6LNIRFg" ,
-      "embed" :"https://www.youtube.com/embed/ldZkQJ-IXkM?si=q4cvik3ye6LNIRFg",
-      "likes": 0
-    }
-
-
-
-
-
-    
-
-
-
-
-
-
-      
-
-      
-
-      
-
-
-    ]
-  }
-    
   "content": [
     {
       "id": 1,
@@ -214,6 +7,7 @@
       "duration": "20 minutes",
       "imageUrl": "https://i.ytimg.com/vi/vNyJuQuuMC8/maxresdefault.jpg",
       "contentUrl": "https://www.youtube.com/watch?v=vNyJuQuuMC8",
+      "embed": " https://www.youtube.com/embed/vNyJuQuuMC8?si=ksmBLsGerxwGeqTe",
       "likes": 0
     },
     {
@@ -223,6 +17,7 @@
       "duration": "45 minutes",
       "imageUrl": "path/to/music-image.jpg",
       "contentUrl": "https://www.example.com/relaxing-music",
+      "embed": null,
       "likes": 0
     },
     {
@@ -232,6 +27,7 @@
       "duration": "6 hours",
       "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a1b8e3e06a1469f0e47c384a",
       "contentUrl": "https://open.spotify.com/album/1V3SPr45Sj8uRuAup6Dd2l",
+      "embed": null,
       "likes": 0
     },
     {
@@ -241,6 +37,7 @@
       "duration": "4 hours, 38 minutes",
       "imageUrl": "https://images-evrit.yit.co.il/Images/Products/NewBO/Products/30930/omanot_hahaim_hatovim_Master.jpg",
       "contentUrl": "https://www.e-vrit.co.il/Product/30930/%D7%90%D7%9E%D7%A0%D7%95%D7%AA_%D7%94%D7%97%D7%99%D7%99%D7%9D_%D7%94%D7%98%D7%95%D7%91%D7%99%D7%9D",
+      "embed": null,
       "likes": 0
     },
     {
@@ -250,6 +47,7 @@
       "duration": "4 hours, 38 minutes",
       "imageUrl": "https://images-evrit.yit.co.il/Images/Products/covers_2020/thinkingwell_master.jpg",
       "contentUrl": "https://www.e-vrit.co.il/Product/18718/%D7%97%D7%95%D7%A9%D7%91%D7%99%D7%9D_%D7%98%D7%95%D7%91",
+      "embed": null,
       "likes": 0
     },
     {
@@ -259,6 +57,7 @@
       "duration": "2 hours, 20 minutes",
       "imageUrl": "https://images-evrit.yit.co.il/Images/Products/NewBO/Products/29922/RAN_WITH_ME_Master.jpg",
       "contentUrl": "https://www.e-vrit.co.il/Product/29922/RAN_WITH_ME",
+      "embed": null,
       "likes": 0
     },
     {
@@ -268,6 +67,7 @@
       "duration": "10 minutes",
       "imageUrl": "/how-to-meditate.jpg",
       "contentUrl": "https://www.mindful.org/how-to-meditate/",
+      "embed": null,
       "likes": 0
     },
     {
@@ -277,6 +77,7 @@
       "duration": "1 hour, 21 minutes",
       "imageUrl": "https://amyshealthybaking.com/wp-content/uploads/2014/11/ultimate-healthy-oatmeal-raisin-cookies_8511-labeled.jpg",
       "contentUrl": "https://amyshealthybaking.com/blog/2014/11/30/the-ultimate-healthy-soft-chewy-oatmeal-raisin-cookies/",
+      "embed": null,
       "likes": 0
     },
     {
@@ -286,7 +87,8 @@
       "duration": "35 minutes",
       "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/delish-keto-cereal-vertical-1543273036.png?crop=1.00xw:0.667xh;0,0.188xh&resize=980:*",
       "contentUrl": "    https://www.delish.com/cooking/recipe-ideas/a25238263/keto-cereal-recipe/",
-      "likes": 1
+      "embed": null,
+      "likes": 0
     },
     {
       "id": 10,
@@ -295,6 +97,87 @@
       "duration": "30 minutes",
       "imageUrl": "https://i.ytimg.com/vi/CY6QP4ofwx4/maxresdefault.jpg",
       "contentUrl": "https://www.youtube.com/watch?v=CY6QP4ofwx4",
+      "embed": "https://www.youtube.com/embed/CY6QP4ofwx4?si=v_DCdI6_D1WHcaoa",
+      "likes": 0
+    },
+    {
+      "id": 11,
+      "category": "yoga",
+      "description": "15 min Gentle Yoga for Flexibility & Stress Reduction",
+      "duration": "15 minutes",
+      "imageUrl": "https://i.ytimg.com/vi/EvMTrP8eRvM/maxresdefault.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=EvMTrP8eRvM",
+      "embed": "https://www.youtube.com/embed/EvMTrP8eRvM?si=-I5ZcWuj_J2aGfdm",
+      "likes": 0
+    },
+    {
+      "id": 12,
+      "category": "cook",
+      "description": "Cooking Tips For Kitchen Beginners",
+      "duration": "8 minutes",
+      "imageUrl": "https://i.ytimg.com/vi/aopS3q6f1GY/maxresdefault.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=aopS3q6f1GY",
+      "embed": "https://www.youtube.com/embed/aopS3q6f1GY?si=lglC8foS1RdnWTpu",
+      "likes": 5
+    },
+    {
+      "id": 13,
+      "category": "cook",
+      "description": "5 Gluten-Free Recipes",
+      "duration": "7 minutes",
+      "imageUrl": "https://i.ytimg.com/vi/h7RyzY9nhiY/maxresdefault.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=h7RyzY9nhiY",
+      "embed": "https://www.youtube.com/embed/h7RyzY9nhiY?si=1T1bZMtRqJ0m3jll",
+      "likes": 0
+    },
+    {
+      "id": 14,
+      "category": "cook",
+      "description": "Homemade dessert",
+      "duration": "7 minutes",
+      "imageUrl": "https://i.ytimg.com/vi/dd2V1tsgdV/maxresdefault.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=dd2V1tsgdVc",
+      "embed": "https://www.youtube.com/embed/dd2V1tsgdVc?si=iVtMNg4xsqsQ8dPE",
+      "likes": 0
+    },
+    {
+      "id": 15,
+      "category": "music",
+      "description": "Relaxation Music",
+      "duration": "2 hour",
+      "imageUrl": "https://i.ytimg.com/vi/IaQEmepUfwQ/maxresdefault.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=IaQEmepUfwQ",
+      "embed": "https://www.youtube.com/embed/IaQEmepUfwQ?si=5qaRGwdgkONpzW68",
+      "likes": 0
+    },
+    {
+      "id": 16,
+      "category": "music",
+      "description": "Best songs that make you dance",
+      "duration": "1 hour",
+      "imageUrl": "https://i.ytimg.com/vi/Y1prccQWlxY/maxresdefault.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=Y1prccQWlxY",
+      "embed": "https://www.youtube.com/embed/Y1prccQWlxY?si=2dz9RNr4MgIK5DSG",
+      "likes": 0
+    },
+    {
+      "id": 17,
+      "category": "music",
+      "description": "Cozy Coffeehouse ☕ - An Indie/Folk/Acoustic",
+      "duration": "1 hour",
+      "imageUrl": "https://i.ytimg.com/vi/L8hPtjGb3R0/maxresdefault.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=L8hPtjGb3R0",
+      "embed": "https://www.youtube.com/embed/L8hPtjGb3R0?si=fFE6TNM6iX9GTqnz",
+      "likes": 0
+    },
+    {
+      "id": 18,
+      "category": "meditation",
+      "description": "Spiritual Healing Reducing Stress",
+      "duration": "5 minutes",
+      "imageUrl": "https://i.ytimg.com/vi/q4cvik3ye6LNIRFg/maxresdefault.jpg",
+      "contentUrl": "https://youtu.be/ldZkQJ-IXkM?si=q4cvik3ye6LNIRFg",
+      "embed": "https://www.youtube.com/embed/ldZkQJ-IXkM?si=q4cvik3ye6LNIRFg",
       "likes": 0
     }
   ]

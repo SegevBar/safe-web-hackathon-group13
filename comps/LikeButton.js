@@ -6,7 +6,7 @@ import styles from "../styles/LikeButton.module.css";
 
 
 const LikeButton = ({id}) => {
-  const [likes, setLikes] = useState(0);
+  const [likeCount, setLikeCount] = useState(0);
   const [liked, setLiked] = useState(false);
 
   const handleLikeClick = () => {
@@ -40,7 +40,7 @@ const LikeButton = ({id}) => {
 
   return (
     <div className={styles.likebutton}>
-      <button className={styles.likebtn} onClick={handleLike}>{liked ? <AiFillLike /> : <AiOutlineLike />}</button>
+      <button className={styles.likebtn} onClick={handleLikeClick}>{liked ? <AiFillLike /> : <AiOutlineLike />}</button>
       <span className={styles.likecount}>Likes: {likeCount}</span>
     </div>
   );
