@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Category from '../comps/Category'
 import styles from '../styles/Home.module.css'
-import YoutubeVideo from '../comps/YoutubeVideo'
 
 export default function Home() {
   // const data = [
