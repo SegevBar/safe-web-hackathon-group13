@@ -6,13 +6,19 @@
   font-family: 'Protest Riot', sans-serif;;
   text-align: center;
   font-size: 70px;
+  margin: 15px;
+
 }
 .text {
   color: #e7486d;
   font-size: 30px;
   text-align: center;
-  font-family: 'Protest Riot', sans-serif;;
+  font-family: 'Protest Riot', sans-serif;
+  padding-top: 0cqb;
+  
+
 }
+
 .btn {
   display: block;
   width: 150px;
@@ -28,4 +34,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.mantra {
+  font-size: 24px;
+  text-align: center;
+}
+
+.sub{
+  font-size: 24px;
 }
