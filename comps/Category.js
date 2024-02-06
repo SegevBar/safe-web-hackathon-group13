@@ -2,6 +2,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
+import Link from 'next/link';
 
 
 
@@ -76,15 +77,16 @@ const ImageMarked = styled('span')(({ theme }) => ({
 const Category =  ({id, categoryName, path, image}) =>{
   return (
       <div>
-    <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
-        <ImageButton href={path}
-          focusRipple
-          key={id}
-          style={{
+        {/* Wrap ImageButton with Link and pass the href */}
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
+          <ImageButton href={path}
+            focusRipple
+            key={id}
+            style={{
             width: '70%',
             borderRadius: '50%',
-          }}
-        >
+           }}
+          >
           <ImageSrc style={{ backgroundImage: `url(${image})` }} />
           <ImageBackdrop className="MuiImageBackdrop-root" />
           <Image>
@@ -101,10 +103,10 @@ const Category =  ({id, categoryName, path, image}) =>{
             >
               {categoryName}
               <ImageMarked className="MuiImageMarked-root" />
-            </Typography>
+                </Typography>
           </Image>
         </ImageButton>
-    </Box>
+      </Box>
     </div>
   );
 }
