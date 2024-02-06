@@ -13,7 +13,12 @@ const ContentCard = ({ data }) => {
       return null;
     }
   }
-  const videoId = getYouTubeVideoId(data.embed);
+  let hrefVal = data.contentUrl;
+  if(data.embed){
+    const videoId = getYouTubeVideoId(data.embed);
+    hrefVal = {pathname: `/contentPage/${videoId}`, query:{url: data.embed}};
+  }
+  
   const handleLike = async () => {
     const response = await fetch('/api/updateLikes', {
       method: 'POST', 
@@ -32,7 +37,7 @@ const ContentCard = ({ data }) => {
   };
   return (
     <div>
-    <Link href={{pathname: `/contentPage/${videoId}`, query:{url: data.embed}}}
+    <Link href={hrefVal}
       target="_self"
       rel="noopener noreferrer"
       className={styles.card} // Apply .card styles
@@ -43,7 +48,7 @@ const ContentCard = ({ data }) => {
           <p className={styles.views}>{data.views} views</p> {/* Apply .views styles */}
         </div>
       </Link>
-      <LikeButton id={data.id} />
+      <LikeButton id={data.id} initialLikes={data.likes} />
       </div>
   );
 };

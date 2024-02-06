@@ -5,8 +5,8 @@ import styles from "../styles/LikeButton.module.css";
 
 
 
-const LikeButton = ({id}) => {
-  const [likeCount, setLikeCount] = useState(0);
+const LikeButton = ({id, initialLikes}) => {
+  const [likeCount, setLikeCount] = useState(initialLikes);
   const [liked, setLiked] = useState(false);
 
   const handleLikeClick = () => {
@@ -26,7 +26,6 @@ const LikeButton = ({id}) => {
         },
         body: JSON.stringify({ id: id }),
       });
-  
       if (response.ok) {
         console.log('Like updated successfully');
         // Optionally, trigger a UI update here

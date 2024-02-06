@@ -68,7 +68,7 @@
       "imageUrl": "/how-to-meditate.jpg",
       "contentUrl": "https://www.mindful.org/how-to-meditate/",
       "embed": null,
-      "likes": 0
+      "likes": 6
     },
     {
       "id": 8,
@@ -175,10 +175,10 @@
       "category": "meditation",
       "description": "Spiritual Healing Reducing Stress",
       "duration": "5 minutes",
-      "imageUrl": "https://i.ytimg.com/vi/q4cvik3ye6LNIRFg/maxresdefault.jpg",
+      "imageUrl": "https://i.ytimg.com/vi/ldZkQJ-IXkM/maxresdefault.jpg",
       "contentUrl": "https://youtu.be/ldZkQJ-IXkM?si=q4cvik3ye6LNIRFg",
       "embed": "https://www.youtube.com/embed/ldZkQJ-IXkM?si=q4cvik3ye6LNIRFg",
-      "likes": 0
+      "likes": 21
     }
   ]
 }
