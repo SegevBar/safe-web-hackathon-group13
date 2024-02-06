@@ -15,6 +15,7 @@
   }
   .card h1 {
     color: red;
+    size: 100px;
   }
   
   .card:hover {

@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Protest+Riot&display=swap');
 
 .title {
-  color: #d41442;
+  color: #e7486d;
   padding-bottom: 20px;
   font-family: 'Protest Riot', sans-serif;;
   text-align: center;
+  font-size: 70px;
+  margin: 15px;
+
 }
 .text {
-  color: rgb(243, 243, 243);
+  color: #e7486d;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Protest Riot', sans-serif;
+  padding-top: 0cqb;
+  
+
 }
+
 .btn {
   display: block;
   width: 150px;
@@ -24,4 +34,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.mantra {
+  font-size: 24px;
+  text-align: center;
+}
+
+.sub{
+  font-size: 24px;
 }

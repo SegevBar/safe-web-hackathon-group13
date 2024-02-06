@@ -42,8 +42,8 @@ export default function Home() {
         {/* <meta name="keywords" content="ninjas"/> */}
       </Head>
       <div>
-        <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>Welcome to Feel Good! blah blah</p>
+        <h1 className={styles.title}>Welcome to 'Feel Good'</h1>
+        <h3 className={styles.text}>Take control of your scrolling experience!</h3>
         {/* <Link href="/ninjas/" className={styles.btn}>
           See Ninja Listing
         </Link> */}
