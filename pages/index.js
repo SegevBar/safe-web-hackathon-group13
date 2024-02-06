@@ -29,11 +29,11 @@ export default function Home() {
   // ];
 
   
-  const categories = [{id:1, categoryName: "Yoga", path: "/about", image:"/yogaLogo.png" },
-  {id:2, categoryName: "Cook", path: "/about", image:"/cook2.png" },
-  {id:3, categoryName: "Music", path: "/about", image:"/music.png" },
-  {id:4, categoryName: "Meditation", path: "/about", image:"/meditationLogo.png" },
-  {id:5, categoryName: "Read", path: "/about", image:"/book.png" }];
+  const categories = [{id:1, categoryName: "yoga", path: "/content/yoga", image:"/yogaLogo.png" },
+  {id:2, categoryName: "cook", path: "/content/cook", image:"/cook2.png" },
+  {id:3, categoryName: "music", path: "/content/music", image:"/music.png" },
+  {id:4, categoryName: "meditation", path: "/content/meditation", image:"/meditationLogo.png" },
+  {id:5, categoryName: "read", path: "/content/read", image:"/book.png" }];
 
   return (
     <>
