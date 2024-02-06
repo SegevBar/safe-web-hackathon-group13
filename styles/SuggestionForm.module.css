@@ -39,7 +39,7 @@
 
 /* Submit button styles */
 .submitbutton {
-  background-color: #4caf50;
+  background-color: #d41442;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -51,5 +51,5 @@
 
 /* Hover effect for submit button */
 .submitbutton:hover {
-  background-color: #45a049;
+  background-color: #d41442;
 }
