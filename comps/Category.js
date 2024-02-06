@@ -21,7 +21,7 @@ const ImageButton = styled(ButtonBase)(({ theme }) => ({
       opacity: 0,
     },
     '& .MuiTypography-root': {
-      border: '4px solid currentColor',
+      border: '2px solid currentColor',
     },
   },
 }));
@@ -45,9 +45,10 @@ const Image = styled('span')(({ theme }) => ({
   borderRadius: '50%',
   bottom:'0px',
   display: 'flex',
-  alignItems: 'down',
+  alignItems: 'center',
   justifyContent: 'center',
-  color: "#e6949f",
+  color: 	'#d41442',
+  
 }));
 
 const ImageBackdrop = styled('span')(({ theme }) => ({
@@ -99,6 +100,7 @@ const Category =  ({id, categoryName, path, image}) =>{
                 pt: 2,
                 fontSize: 22,
                 fontWeight: 75,
+                fontFamily: 'Protest Riot',
                 pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
               }}
             >
