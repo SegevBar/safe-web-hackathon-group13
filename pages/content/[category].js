@@ -4,7 +4,6 @@ import Head from "next/head";
 import { useRouter } from 'next/router';
 import styles from "../../styles/Home.module.css";
 import ContentGrid from "../../comps/ContentGrid";
-import useFetchContent from "../../hooks/useFetchContent";
 
 // const CategoryPage = () => {
 //   const router = useRouter();
@@ -46,7 +45,7 @@ export default function CategoryPage({ data, category }) {
         <title>Feel Good | {category}</title>
       </Head>
       <div>
-        <h1>{category}</h1>
+      <h1 className={styles.title}>{category}</h1>
         {/* Render your ContentGrid component with fetched data */}
         <ContentGrid data={data} />
       </div>
