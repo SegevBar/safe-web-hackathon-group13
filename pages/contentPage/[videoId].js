@@ -4,5 +4,7 @@ import { useRouter } from 'next/router';
 export default function VideoPage(){
     const router = useRouter();
     const {url} = router.query;
-    return <YoutubeVideo url={url}/>;
+    return(
+        <YoutubeVideo url={url}/>
+    )
 }
