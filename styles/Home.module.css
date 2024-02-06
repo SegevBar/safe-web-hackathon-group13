@@ -15,8 +15,6 @@
   text-align: center;
   font-family: 'Protest Riot', sans-serif;
   padding-top: 0cqb;
-  
-
 }
 
 .btn {
@@ -43,4 +41,10 @@
 
 .sub{
   font-size: 24px;
+}
+
+.headlist {
+  color: #e7486d;
+  font-size: 30px;
+  font-family: 'Protest Riot', sans-serif;
 }
