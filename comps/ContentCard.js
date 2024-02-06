@@ -45,7 +45,6 @@ const ContentCard = ({ data }) => {
         <img src={data.imageUrl} alt={data.description} className={styles.image} /> {/* Apply .image styles */}
         <div className={styles.info}> {/* Apply .info styles */}
           <h2 className={styles.description}>{data.description}</h2> {/* Apply .title styles */}
-          <p className={styles.views}>{data.views} views</p> {/* Apply .views styles */}
         </div>
       </Link>
       <LikeButton id={data.id} initialLikes={data.likes} />
