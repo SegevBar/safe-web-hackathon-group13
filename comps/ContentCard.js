@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/ContentCard.module.css";
+import LikeButton from "./LikeButton";
 
 // const ContentCard = ({ data }) => {
 //   return (
@@ -22,6 +23,7 @@ import styles from "../styles/ContentCard.module.css";
 
 const ContentCard = ({ data }) => {
   return (
+    <div>
     <a
       href={data.contentUrl}
       target="_blank"
@@ -32,8 +34,11 @@ const ContentCard = ({ data }) => {
       <div className={styles.info}> {/* Apply .info styles */}
         <h2 className={styles.description}>{data.description}</h2> {/* Apply .title styles */}
         <p className={styles.views}>{data.views} views</p> {/* Apply .views styles */}
+        
       </div>
     </a>
+    <LikeButton />
+    </div>
   );
 };
 
