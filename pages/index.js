@@ -15,14 +15,10 @@ export default function Home() {
     <>
       <Head>
         <title>Feel Good | Home</title>
-        {/* <meta name="keywords" content="ninjas"/> */}
       </Head>
       <div>
         <h1 className={styles.title}>Homepage</h1>
         <p className={styles.text}>Welcome to Feel Good! blah blah</p>
-        {/* <Link href="/ninjas/" className={styles.btn}>
-          See Ninja Listing
-        </Link> */}
           <div className={styles.categories}>
             {categories.map((category)=>(<Category key={category.id} {...category}/>))}
           </div>

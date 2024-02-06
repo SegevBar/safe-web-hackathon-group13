@@ -12,23 +12,9 @@ const ContentCard = ({ data }) => {
       return null;
     }
   }
-  // const videoId = getYouTubeVideoId(data.embed);
-  const videoId = getYouTubeVideoId("https://www.youtube.com/embed/p5K6wU-0zG4?si=pQemLILRbC-NsjPU")
+  const videoId = getYouTubeVideoId(data.embed);
   return (
-    // <a
-    //   // href={`/contentPage/${data.embed}`}
-    //   href={'contentPage/'+"https://www.youtube.com/embed/p5K6wU-0zG4?si=pQemLILRbC-NsjPU"}
-    //   target="_blank"
-    //   rel="noopener noreferrer"
-    //   className={styles.card} // Apply .card styles
-    // >
-    //     <img src={data.imageUrl} alt={data.description} className={styles.image} /> {/* Apply .image styles */}
-    //   <div className={styles.info}> {/* Apply .info styles */}
-    //     <h2 className={styles.description}>{data.description}</h2> {/* Apply .title styles */}
-    //     <p className={styles.views}>{data.views} views</p> {/* Apply .views styles */}
-    //   </div>
-    // </a>
-    <Link href={{pathname: `/contentPage/${videoId}`, query:{url: "https://www.youtube.com/embed/p5K6wU-0zG4?si=pQemLILRbC-NsjPU"}}}
+    <Link href={{pathname: `/contentPage/${videoId}`, query:{url: data.embed}}}
       target="_self"
       rel="noopener noreferrer"
       className={styles.card} // Apply .card styles
