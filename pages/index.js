@@ -30,7 +30,7 @@ export default function Home() {
 
   
   const categories = [{id:1, categoryName: "yoga", path: "/content/yoga", image:"/yogaLogo.png" },
-  {id:2, categoryName: "cook", path: "/content/cook", image:"/cook2.png" },
+  {id:2, categoryName: "cook", path: "/content/cook", image:"/cook.png" },
   {id:3, categoryName: "music", path: "/content/music", image:"/music.png" },
   {id:4, categoryName: "meditation", path: "/content/meditation", image:"/meditationLogo.png" },
   {id:5, categoryName: "read", path: "/content/read", image:"/book.png" }];

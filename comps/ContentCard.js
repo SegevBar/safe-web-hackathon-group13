@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/ContentCard.module.css";
+import LikeButton from './LikeButton';
 
 // const ContentCard = ({ data }) => {
 //   return (
@@ -32,6 +33,11 @@ const ContentCard = ({ data }) => {
       <div className={styles.info}> {/* Apply .info styles */}
         <h2 className={styles.description}>{data.description}</h2> {/* Apply .title styles */}
         <p className={styles.views}>{data.views} views</p> {/* Apply .views styles */}
+        <div className="App">
+      <h1>React Like Button Example</h1>
+      <LikeButton />
+    </div>
+        
       </div>
     </a>
   );
