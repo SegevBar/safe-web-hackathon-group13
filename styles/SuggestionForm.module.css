@@ -1,5 +1,12 @@
 /* SuggestionForm.css */
 
+.title {
+  color: #d41442;
+  padding-bottom: 20px;
+  font-family: 'Protest Riot', sans-serif;;
+  text-align: center;
+}
+
 /* Container styles */
 .container {
   width: 70%;
@@ -39,7 +46,7 @@
 
 /* Submit button styles */
 .submitbutton {
-  background-color: #d41442;
+  background-color:  #d41442;
   color: white;
   padding: 15px 30px;
   border: none;

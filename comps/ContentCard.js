@@ -14,6 +14,22 @@ const ContentCard = ({ data }) => {
     }
   }
   const videoId = getYouTubeVideoId(data.embed);
+  const handleLike = async () => {
+    const response = await fetch('/api/updateLikes', {
+      method: 'POST', 
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ id: data.id }),
+    });
+
+    if (response.ok) {
+      console.log('Like updated successfully');
+      // Optionally, trigger a UI update here
+    } else {
+      console.error('Failed to update like');
+    }
+  };
   return (
     <div>
     <Link href={{pathname: `/contentPage/${videoId}`, query:{url: data.embed}}}

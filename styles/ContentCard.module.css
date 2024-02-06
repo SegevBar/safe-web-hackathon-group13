@@ -41,3 +41,9 @@
     margin: 5px 0;
     font-size: 14px;
   }
+  .image {
+    width: 100%; /* Maintain full width of the card */
+    height: 180px; /* Set a fixed height for all images */
+    object-fit: cover; /* Cover the container without losing aspect ratio */
+    border-bottom: 1px solid #ddd;
+  }

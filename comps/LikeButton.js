@@ -4,23 +4,43 @@ import { AiOutlineLike } from "react-icons/ai";
 import styles from "../styles/LikeButton.module.css";
 
 
-const LikeButton = () => {
+
+const LikeButton = ({id}) => {
   const [likeCount, setLikeCount] = useState(0);
   const [liked, setLiked] = useState(false);
 
-  const handleLike = () => {
+  const handleLikeClick = () => {
     if (!liked) {
-        setLikeCount(likeCount + 1);
-        setLiked(true);
+      setLikeCount(likeCount + 1);
+      setLiked(true);
+    } else {
+      setLikeCount(likeCount - 1);
+      setLiked(false);
+    }
+    console.log("id", id);
+    const handleLike = async () => {
+      const response = await fetch('/api/updateLikes', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ id: id }),
+      });
+  
+      if (response.ok) {
+        console.log('Like updated successfully');
+        // Optionally, trigger a UI update here
       } else {
-        setLikeCount(likeCount - 1);
-        setLiked(false);
+        console.error('Failed to update like');
       }
+    };
+    handleLike();
+
   };
 
   return (
     <div className={styles.likebutton}>
-      <button className={styles.likebtn} onClick={handleLike}>{liked ? <AiFillLike /> : <AiOutlineLike />}</button>
+      <button className={styles.likebtn} onClick={handleLikeClick}>{liked ? <AiFillLike /> : <AiOutlineLike />}</button>
       <span className={styles.likecount}>Likes: {likeCount}</span>
     </div>
   );
