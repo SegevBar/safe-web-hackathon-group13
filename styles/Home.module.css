@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Protest+Riot&display=swap');
+
 .title {
   color: #d41442;
   padding-bottom: 20px;
+  font-family: 'Protest Riot', sans-serif;;
   text-align: center;
 }
 .text {
