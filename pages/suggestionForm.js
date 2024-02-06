@@ -18,7 +18,7 @@ function SuggestionForm() {
 
   return (
     <div className={styles.container}>
-      <h2>Suggest Your Content!</h2>
+      <h2 className={styles.title}>Suggest Your Content!</h2>
       <h3>Here you can tell us about content you think we are missing!</h3>
       <form onSubmit={handleSubmit} className={styles.suggestionform}>
       <div className="formgroup">
