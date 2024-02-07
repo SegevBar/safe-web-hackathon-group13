@@ -1,24 +1,27 @@
-Welcome to the NextJS base template bootstrapped using the `create-next-app`. This template supports TypeScript, but you can use normal JavaScript as well.
+# FeelGood Project
 
-## Getting Started
+## Project Overview
 
-Hit the run button to start the development server.
+FeelGood is a web application designed to encourage young girls and other users to take meaningful breaks from online scrolling. By tracking time spent on various websites, the app suggests engaging, offline activities tailored to user preferences, such as podcasts, yoga sessions, and cooking recipes. The aim is to offer a digital space similar to Headspace, providing users with a way to recharge and 'feel good' again.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on `/api/hello`. This endpoint can be edited in `pages/api/hello.ts`.
+The FeelGood project is built using Next.js and is organized as follows:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **pages/**: Contains all page components of the application.
+  - **api/**: Holds the API routes.
+    - **updatelikes/**: API endpoints for updating number of likes of content in json data.
+  - **content/**: holds a dinamic page "[category].js" for each content categroy).
+  - Standard pages (_app.js, about.js, login.js, 404.js, index.js, suggestionForm.js).
+- **comps/**: Reusable UI components (Navbar, Footer, Layout, Category, ContentCard, ContentGrid, ContentGridContainer, LikeButton, YoutubeVideo).
+- **public/**: Static assets (images, icons).
+- **styles/**: CSS and styling files.
+- **data/**: JSON file for initial data (content.json).
 
-## Learn More
+## Quick Start
 
-To learn more about Next.js, take a look at the following resources:
+### Setting Up the Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## Productionizing your Next App
-
-To make your next App run smoothly in production make sure to deploy your project with [Repl Deployments](https://docs.replit.com/hosting/deployments/about-deployments)!
-
-You can also produce a production build by running `npm run build` and [changing the run command](https://docs.replit.com/programming-ide/configuring-repl#run) to `npm run start`.
+1. **Clone the Repository**:
+   ```bash
+   git clone [repository URL]
