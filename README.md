@@ -33,7 +33,7 @@ The FeelGood project is built using Next.js and is organized as follows:
    ```bash
    npm run dev
 4. **Run JSON Server**:
-   ``bash
+   ```bash
    npx json-server --port 8000 data/content.json
 
 
