@@ -24,4 +24,18 @@ The FeelGood project is built using Next.js and is organized as follows:
 
 1. **Clone the Repository**:
    ```bash
-   git clone [repository URL]
+   git clone [repository URL
+2. **Install Dependencies**:
+   ```bash
+   cd safe-web-hackathon-group13
+   npm i
+3. **Run the Next.js App**:
+   ```bash
+   npm run dev
+4. **Run JSON Server**:
+   ``bash
+   npx json-server --port 8000 data/content.json
+
+
+With these steps, users should be able to set up and run the FeelGood project on their local machines.
+
